@@ -24,6 +24,8 @@ wheels/
 .installed.cfg
 *.egg
 MANIFEST
+.app/settings.py
+app/settings.py
 settings.py
 
 # PyInstaller
