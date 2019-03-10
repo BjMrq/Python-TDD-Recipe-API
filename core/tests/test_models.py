@@ -6,11 +6,6 @@ import os
 
 class ModelTests(TestCase):
 
-    def test_env_variables(self):
-        password = os.environ.get("password1")
-
-        self.assertEqual(password, "hello")
-
     def test_create_user_with_email_successful(self):
         """Test creating a new user with an email"""
         email = "test@mailprov.com"
